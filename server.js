@@ -14,6 +14,9 @@ const bootcamps = require('./routes/bootcamps');
 
 const app = express();
 
+// Body parser
+app.use(express.json());
+
 // app.use(logger); // just an example of my own custom logger. Going to use mogran instead
 
 // Dev logging middleware
