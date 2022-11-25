@@ -31,7 +31,7 @@ app.use('/api/v1/bootcamps', bootcamps);
 // In order to user error middleware, we have to put it below controllers
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5500;
 
 const server = app.listen(
   PORT,
